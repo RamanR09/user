@@ -38,16 +38,6 @@ label {
   font-family: "Times New Roman", Times, serif;
 }
 
-.registration {
-  /* height: fit-content;
-  width: 100px;
-  border-radius: 10px;
-  padding-right: 5px; */
-  /* display: flex; */
-  /* flex: row;
-  align-items: center; */
-}
-
 .registration .re1 {
   display: flex;
   flex-direction: column;
@@ -127,4 +117,18 @@ textarea::placeholder {
   width: 72px;
   margin-bottom: 3px;
   margin-left: 8px;
+}
+
+.finalRegister {
+  width: fit-content;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  margin-left: 17rem;
+  margin-top: 3rem;
+}
+
+.finalRegister:hover {
+  color: aqua;
 }
