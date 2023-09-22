@@ -102,6 +102,7 @@ textarea::placeholder {
   width: 230px;
   border-radius: 7px;
   border-color: aqua;
+  border-color: aqua;
 }
 
 .Empasis textarea {
