@@ -1,0 +1,130 @@
+.mainForm {
+  display: flex;
+  flex-direction: column;
+}
+.formDiv {
+  height: auto;
+  width: 350px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: aqua;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(5px);
+  /* background: transparent; */
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 30px 40px;
+  margin: 30px;
+}
+
+.registerButton {
+  width: fit-content;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  /* border-color: aqua; */
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  /* background-color: red; */
+  /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -10px; */
+}
+
+.registerButton:hover {
+  background: transparent;
+  color: aqua;
+  /* background-color: black; */
+}
+label {
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.registration {
+  /* height: fit-content;
+  width: 100px;
+  border-radius: 10px;
+  padding-right: 5px; */
+  /* display: flex; */
+  /* flex: row;
+  align-items: center; */
+}
+
+.registration .re1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.registration input {
+  border-radius: 7px;
+  padding-left: 3px;
+  border-color: aqua;
+  height: 20px;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.yearSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.yearSelector select {
+  width: 80px;
+  border-radius: 7px;
+  padding-left: 3px;
+  border-color: aqua;
+  margin-bottom: 3px;
+}
+input::placeholder {
+  color: rgb(65, 62, 225);
+}
+
+textarea::placeholder {
+  color: rgb(65, 62, 225);
+}
+
+.yearSelector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.yearSelector div label {
+  margin-right: 10px;
+}
+.Empasis {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Empasis div {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+.Empasis input {
+  height: 20px;
+  width: 230px;
+  border-radius: 7px;
+  border-color: aqua;
+}
+
+.Empasis textarea {
+  border-radius: 7px;
+  border-color: aqua;
+}
+.Branch {
+  border-radius: 7px;
+  padding-left: 3px;
+  border-color: aqua;
+  height: 15px;
+  text-align: left;
+  width: 72px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+}
